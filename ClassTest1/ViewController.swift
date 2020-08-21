@@ -38,8 +38,7 @@ class ViewController: UIViewController,WCSessionDelegate {
     @IBOutlet weak var showResultLabel: UILabel!
     
     @IBAction func calculateBMI(_ sender: UIButton) {
-        var w = 0.0
-        var h = 0.0
+
          
         
        // let height = Double(heightTextField.text!)
