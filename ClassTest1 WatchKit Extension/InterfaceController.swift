@@ -46,6 +46,7 @@ class InterfaceController: WKInterfaceController,WCSessionDelegate {
           
           resultLabel.setText((message["BMI"] as! String))
         genderImage.setImage(UIImage(named: message["Gender"] as! String))
+        
       }
 
 }
