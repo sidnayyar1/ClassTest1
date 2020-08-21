@@ -27,6 +27,10 @@
 		01125D7824EF4E0A00A5FBBB /* male.png in Resources */ = {isa = PBXBuildFile; fileRef = 01125D7324EF4E0A00A5FBBB /* male.png */; };
 		01125D7924EF4E0A00A5FBBB /* female.png in Resources */ = {isa = PBXBuildFile; fileRef = 01125D7424EF4E0A00A5FBBB /* female.png */; };
 		01125D7A24EF4E0A00A5FBBB /* female.png in Resources */ = {isa = PBXBuildFile; fileRef = 01125D7424EF4E0A00A5FBBB /* female.png */; };
+		01125D8224EF569D00A5FBBB /* height.png in Resources */ = {isa = PBXBuildFile; fileRef = 01125D8124EF569D00A5FBBB /* height.png */; };
+		01125D8324EF569D00A5FBBB /* height.png in Resources */ = {isa = PBXBuildFile; fileRef = 01125D8124EF569D00A5FBBB /* height.png */; };
+		01125D8524EF576C00A5FBBB /* weight.png in Resources */ = {isa = PBXBuildFile; fileRef = 01125D8424EF576C00A5FBBB /* weight.png */; };
+		01125D8624EF576C00A5FBBB /* weight.png in Resources */ = {isa = PBXBuildFile; fileRef = 01125D8424EF576C00A5FBBB /* weight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +98,8 @@
 		01125D7224EF4E0A00A5FBBB /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown.png; sourceTree = "<group>"; };
 		01125D7324EF4E0A00A5FBBB /* male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male.png; sourceTree = "<group>"; };
 		01125D7424EF4E0A00A5FBBB /* female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = female.png; sourceTree = "<group>"; };
+		01125D8124EF569D00A5FBBB /* height.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = height.png; sourceTree = "<group>"; };
+		01125D8424EF576C00A5FBBB /* weight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,8 @@
 		01125D3524EF3E1E00A5FBBB /* ClassTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				01125D8424EF576C00A5FBBB /* weight.png */,
+				01125D8124EF569D00A5FBBB /* height.png */,
 				01125D7424EF4E0A00A5FBBB /* female.png */,
 				01125D7324EF4E0A00A5FBBB /* male.png */,
 				01125D7224EF4E0A00A5FBBB /* unknown.png */,
@@ -278,8 +286,10 @@
 			files = (
 				01125D4324EF3E2000A5FBBB /* LaunchScreen.storyboard in Resources */,
 				01125D7724EF4E0A00A5FBBB /* male.png in Resources */,
+				01125D8224EF569D00A5FBBB /* height.png in Resources */,
 				01125D4024EF3E2000A5FBBB /* Assets.xcassets in Resources */,
 				01125D7524EF4E0A00A5FBBB /* unknown.png in Resources */,
+				01125D8524EF576C00A5FBBB /* weight.png in Resources */,
 				01125D3E24EF3E1E00A5FBBB /* Main.storyboard in Resources */,
 				01125D7924EF4E0A00A5FBBB /* female.png in Resources */,
 			);
@@ -289,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01125D8324EF569D00A5FBBB /* height.png in Resources */,
+				01125D8624EF576C00A5FBBB /* weight.png in Resources */,
 				01125D7624EF4E0A00A5FBBB /* unknown.png in Resources */,
 				01125D5024EF3E2100A5FBBB /* Assets.xcassets in Resources */,
 				01125D7A24EF4E0A00A5FBBB /* female.png in Resources */,

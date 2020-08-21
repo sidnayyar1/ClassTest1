@@ -11,7 +11,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ClassTest1_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="134" height="87" alignment="center" verticalAlignment="bottom" text="Show Data Here" textAlignment="center" id="521-vN-BMT"/>
+                        <label width="134" height="87" alignment="center" verticalAlignment="bottom" text="Show Data Here" textAlignment="center" numberOfLines="3" id="521-vN-BMT">
+                            <fontDescription key="font" type="system" pointSize="11"/>
+                        </label>
                         <imageView height="58" alignment="left" image="unknown" id="CkV-Zj-g87">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </imageView>
