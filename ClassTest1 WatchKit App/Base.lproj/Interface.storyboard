@@ -11,11 +11,18 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ClassTest1_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="136" height="75" alignment="center" verticalAlignment="bottom" text="Show Data Here" id="521-vN-BMT"/>
+                        <label width="134" height="87" alignment="center" verticalAlignment="bottom" text="Show Data Here" textAlignment="center" id="521-vN-BMT"/>
+                        <imageView height="58" alignment="left" image="unknown" id="CkV-Zj-g87">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </imageView>
                     </items>
+                    <connections>
+                        <outlet property="genderImage" destination="CkV-Zj-g87" id="hMK-NX-hXd"/>
+                        <outlet property="resultLabel" destination="521-vN-BMT" id="5MV-aW-SQl"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="314"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -49,4 +56,7 @@
             <point key="canvasLocation" x="468" y="345"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="unknown" width="384" height="384"/>
+    </resources>
 </document>

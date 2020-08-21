@@ -27,6 +27,13 @@ class ViewController: UIViewController,WCSessionDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if(WCSession.isSupported())
+               {
+                   print("Watch Connectivity is supported")
+                   
+                   WCSession.default.delegate = self
+                   WCSession.default.activate()
+               }
         // Do any additional setup after loading the view.
     }
     
@@ -91,7 +98,7 @@ class ViewController: UIViewController,WCSessionDelegate {
     if(WCSession.default.isReachable)
           {
               print("Watch Reachable")
-              WCSession.default.sendMessage(["BMI":"BMI is \(BMItype) \n" + BMItype, "Gender":gender], replyHandler: nil)
+              WCSession.default.sendMessage(["BMI":"BMI is \(bmiCalculate) \n" + BMItype, "Gender":gender], replyHandler: nil)
           }
           else
           {
